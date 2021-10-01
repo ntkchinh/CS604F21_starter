@@ -6,7 +6,7 @@ int main(void) {
 	//You may NOT use the functions toUpper() or toLower()
 	//Please note the conversion has to happen in place (in array u). You may NOT declare another array.
 	
-	//your code here
+	/**your code here**/
 
 	//DO NOT modify the following printf, it is supposed to print out helloworld,cs604 students!
 	printf("%s\n",u);

@@ -4,9 +4,11 @@ int main(void) {
 	int i;
 	int sum;
 	
-	//TODO: please replace ??? to calculate the sum of all the odd numbers from 1 to 1000:
-	//TODO: 1+3+5...+999
-	//TODO: you are only allowed to modify ??? please do not try to change < to <=.
+	//TODO: Please replace the three ???s in line 12 so that the loop calculates
+	//the sum of all the odd numbers from 1 to 1000 (that is: 1+3+5...+999)
+	//You are only allowed to modify the ??? 
+	//You may NOT change < to <=.
+
 	for(i=???; i<???; ???) {
 		sum = sum + i;
 	}

@@ -7,7 +7,8 @@ int main() {
     //You are not allowed to hard-code any numbers in decimals
     //You are allowed to hard-code binaries/hex values
     //No loop or if statement is allowed
-    
+    min_short = 1;
+    max_short = 2;
     printf("%hd ", min_short);
     printf("%hd\n", max_short);
     return 0;

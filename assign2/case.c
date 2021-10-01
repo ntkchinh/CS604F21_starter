@@ -1,4 +1,4 @@
-
+//No toupper() or any other C function.
 #include<stdio.h>
 int main ()
 {

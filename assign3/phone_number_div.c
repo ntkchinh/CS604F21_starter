@@ -6,15 +6,17 @@ int main(void) {
 	printf("Please input a 10-digit phone number:");
 	scanf("%s", original);
 	char converted[13];
-	//DO not modify the code above
+	//DO NOT modify the code above
 
-	//TODO: partition the phone number stored in original array for better readability
-	//TODO: by using - as divider to break the number down into three components
-	//TODO: for instance if the input is 5168886666
-	//TODO: then the output is 516-888-6666
-	//TODO: the output must be stored in the array converted
-	//TODO: You must use a loop to copy characters over
+	//TODO: Partition the phone number stored in original array for better readability by 
+	//using the character '-' as divider to break the number down into three components.
+	//For instance, if the input is 5168886666 then the output is 516-888-6666
+	//The input is stored in the array original (see lines 5 and 7). 
+	//The output must be stored in the array converted (already declared in line 8).
+	//You MUST use a loop to copy characters over
 
-	//DO not modify the code underneath
+	/**your code here**/
+
+	//DO NOT modify the code below
        	printf("%s\n", converted);	
 }

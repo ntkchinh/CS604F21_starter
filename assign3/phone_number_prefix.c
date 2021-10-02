@@ -5,14 +5,15 @@ int main(void) {
 	printf("Please input a 7-digit phone number:");
 	scanf("%s", original);
 	char converted[13];
-	//DO not modify the code above
+	//DO NOT modify the code above
 
-	//TODO: insert an area code (516) ahead of the phone stored original array
-	//TODO: for instance if the input is 1234567
-	//TODO: then the output is (516)1234567
-	//TODO: the output must be stored in array converted
-	//TODO: You must use a loop to copy characters over
+	//TODO: Insert the area code (516) ahead of the phone number stored original array
+	//For instance, if the input is 1234567 then the output is (516)1234567
+	//The output must be stored in array converted (already declared in line 7)
+	//You MUST use a loop to copy characters over
 
-	//DO not modify the code underneath
+	/**your code here**/
+
+	//DO NOT modify the code below
        	printf("%s\n", converted);	
 }

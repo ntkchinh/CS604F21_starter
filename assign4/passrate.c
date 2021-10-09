@@ -19,10 +19,10 @@ float calculatePassRate(struct stud studs[], int count) { //why is count here? C
 //Please do not modify main function
 int main(void) {
 	struct stud students[20];
-	int stud_count = 0;
+	int stud_count=0;
 	char temp_name[50];
-	float passrate = 0;
-	float grade = 0;
+	float passrate=0;
+	float grade=0;
 	printf("Enter a test score(-1 to quit), or\n");
 	printf("Enter a grade first, then a student's name\n");
 	scanf("%f", &grade);

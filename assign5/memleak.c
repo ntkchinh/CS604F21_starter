@@ -1,6 +1,6 @@
 //Currently there are memory leaks in the code
 //Please fix all the memory leaks
-//Your code will be tested against Valgrind to ensure there are no 
+//Your code will be tested against Valgrind to ensure there are no memory violations
 
 #include <stdio.h>
 #include <stdlib.h>

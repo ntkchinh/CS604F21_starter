@@ -5,7 +5,7 @@
 char* mystrcat(char * first, char * second){
 //your code here:
 //creates a string allocated on heap which equals to the combination of the first string and the second string and return the combined string.
-//You are not allowed to use strcat, strcpy
+//You are not allowed to use strcat or strcpy
 //You are allowed to use strlen
 }
 

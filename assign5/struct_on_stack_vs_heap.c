@@ -18,7 +18,6 @@
 //                                             ----------- 
 //You can also have field values that are pointers:
 
-//Given the following struct definition:
 struct student {
     char name[50];
     int  age;

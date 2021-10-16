@@ -3,7 +3,7 @@
 
 //Recall the minimum() exercise you have done in a previous problem set.
 //This time you will redo minimum with array name being treated as an address
-//and only use pointer arithmetic to walk through the array
+//and only use pointer arithmetic (not index notation []) to walk through the array
 //Please only modify function minimum
 #include <stdio.h>
 

@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+//TODO: Modify function mystrcat so it does the following: 
+//This function should create a string allocated on heap. This string should be the two
+//input strings combined (this is called "concatenation" or "concatenating" the strings)
+//The function should return this combined string.
+//You ARE NOT allowed to use strcat or strcpy
+//You ARE allowed to use strlen
 //Please only modify mystrcat
 char* mystrcat(char * first, char * second){
-//your code here:
-//creates a string allocated on heap which equals to the combination of the first string and the second string and return the combined string.
-//You are not allowed to use strcat or strcpy
-//You are allowed to use strlen
+
+/***Your code here***/
+
 }
 
 int main(void) {

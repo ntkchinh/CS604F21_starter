@@ -55,7 +55,10 @@ void printArray(int a[], int size) {
 int minimum(int *p, int size) {
     int low;
 
-    //TODO: your code here.
-    //TODO: please only use pointer arithmetic to traverse the array
+    //TODO: write code to find the smallest value in the array and store it to variable low
+    //Please only use pointer arithmetic to traverse the array
+
+    /***Your code here***/
+    
     return low;
 }

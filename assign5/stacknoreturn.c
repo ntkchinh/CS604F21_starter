@@ -1,7 +1,8 @@
 //Any stack address (adderess of local vars, address of parameters, and array on stack) 
 //should not  be returned to caller because where the address points to
 //will be recycled right after callee returns
-//The following code suffers this use-garbage-value memory bug, please fix it
+//The following code suffers this use-garbage-value memory bug and needs to be fixed
+//TODO: Please fix the memory leak
 //Your code will be tested against Valgrind to ensure there are no memory violations
 
 #include <stdio.h>

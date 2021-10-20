@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+//This is an ascii figure that models the difference between 
+//how struct on the stack and a struct on the heap are 
+//stored in memory
 //ON THE STACK                               ON THE HEAP
 //=============                              ===========
 //   -----------
@@ -16,9 +19,8 @@
 //                                             |  2015   |
 //                                             |  3.2    |
 //                                             ----------- 
-//You can also have field values that are pointers:
+//You can also have field values that are pointers
 
-//Given the following struct definition:
 struct student {
     char name[50];
     int  age;
@@ -30,10 +32,13 @@ int main(void) {
     struct student s;
     struct student *sptr;
     //Please do not modify the code above this line
-    //
-    //Your code here please construct a struct student on the stack and another struct student on heap, 
-    //as shown above in the ascii figure.
-    //
+    
+    //TODO: Please construct a struct student on the stack and another struct student on heap, 
+    //so it matches the memory model above in the ascii figure. Use the values from the 
+    //ascii figure for name, age, year, and gpa
+    
+    /***Your code here***/
+
     //Please do not modify the code underneath
     printf("%s's info: %d years old, graduated in %d with %.2f gpa\n", s.name, s.age, s.year, s.gpa);
     printf("%s's info: %d years old, graduated in %d with %.2f gpa\n", sptr->name, sptr->age, sptr->year, sptr->gpa);

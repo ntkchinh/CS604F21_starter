@@ -1,7 +1,7 @@
 //There are memory leaks and out-of-bound access in the code
-//Please fix all the memory bugs 
-//Your code will be tested against Valgrind to ensure there are no 
-//memory violations.
+//TODO: Please fix all the memory bugs 
+//Your code will be tested against Valgrind to ensure there are no memory violations. 
+//The output of the program (what it prints) should not change.
 #include <stdio.h>
 #include <stdlib.h>
 

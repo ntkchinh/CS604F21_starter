@@ -2,9 +2,9 @@
  */
 
 //Recall the minimum() exercise you have done in a previous problem set.
-//This time you will redo minimum with array name being treated as an address
-//and only use pointer arithmetic (not index notation []) to walk through the array
-//Please only modify function minimum
+    //This time you will redo minimum with array name being treated as an address
+    //and only use pointer arithmetic (not index notation []) to walk through the array
+    //Please only modify function minimum
 #include <stdio.h>
 
 /* function prototypes: */
@@ -54,8 +54,15 @@ void printArray(int a[], int size) {
  */
 int minimum(int *p, int size) {
     int low;
-
+    
     //TODO: your code here.
+    low = *p;
+    for (int i = 1; i < size; i ++){
+        p ++;
+        if (low > *p)
+            low = *p;
+    }
+
     //TODO: please only use pointer arithmetic to traverse the array
     return low;
 }

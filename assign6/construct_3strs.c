@@ -1,3 +1,6 @@
+//For all construct_*.c questions, please follow the tutorial/instructions here:
+//https://docs.google.com/document/d/1HHhQQWp7ypdiqdGnPtWfoQIeqO3xIaSUfnZJLysILNU/edit?usp=sharing
+
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node {
